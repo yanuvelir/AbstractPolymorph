@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         GroupOfAuto groupOfSedan = new GroupOfAuto(4);
-        groupOfSedan.Add(new Sedan(" Volvo"));
+        groupOfSedan.Add(new Sedan(" Volvo")) ;
         groupOfSedan.Add(new Sedan(" Porsche"));
         groupOfSedan.Add(new Sedan(" Opel"));
         groupOfSedan.Add(new Sedan(" Dodge"));
